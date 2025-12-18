@@ -152,6 +152,8 @@ A Power BI dashboard was created to communicate insights:
 - Contract-wise churn analysis
 The dashboard enables business teams to monitor churn and take proactive actions.
 
+![Dashboard Overview](screenshots/subcription_retention_analysis_dashboard.png)
+
 
 ## 12. Tech Stack Used
 - Python (Pandas, NumPy, Scikit-learn)
