@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Retention Analysis</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f7f9fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 30px 30px;
+            text-align: center;
+        }
+
+        header h1 {
+	    font-size: 50px;
+            margin: auto;
+        }
+
+        section {
+            max-width: 1300px;
+            margin: auto;
+            padding: 30px 30px;
+            background: white;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+
+        h2 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .tech span {
+            display: inline-block;
+            background: #e8f0fe;
+            color: #1e3c72;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .highlight {
+            background: #f1f5ff;
+            padding: 15px;
+            border-left: 5px solid #2a5298;
+            margin: 20px 0;
+        }
+	
+	img {
+	    width: 85%;
+	    height: 40%;
+      	    border-radius: 8px;
+      	    border: 1px solid black;
+      	    display: block;
+	    margin-left: auto;
+	    margin-right: auto
+    	}
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        a {
+            color: #2a5298;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Subscription Retention Analysis</h1>
+    <p>End-to-End Data Science Project | Churn Prediction & Business Insights</p>
+    <p><strong>By Harshad Dhongade</strong></p>
+</header>
+
+<section>
+    <h2>📌 Business Problem</h2>
+    <p>
+        Subscription-based businesses lose recurring revenue due to customer churn.
+        This project focuses on understanding <strong>who churns, when they churn, and why</strong>,
+        and how businesses can take <strong>data-driven retention actions</strong>.
+    </p>
+</section>
+
+<section>
+    <h2>🎯 Project Objectives</h2>
+    <ul>
+        <li>Analyze customer behavior and churn patterns</li>
+        <li>Perform cohort-based retention analysis</li>
+        <li>Build an interpretable churn prediction model</li>
+        <li>Convert predictions into business actions</li>
+        <li>Visualize insights using dashboards</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🧠 Approach & Workflow</h2>
+    <ul>
+        <li>Business Understanding</li>
+        <li>Dataset Generation (Semi-messy, realistic data)</li>
+        <li>SQL Schema & Churn Queries</li>
+        <li>EDA & Data Cleaning (Python)</li>
+        <li>Feature Engineering</li>
+        <li>Logistic Regression (Classical ML)</li>
+        <li>Model Evaluation & Threshold Tuning</li>
+        <li>Power BI Dashboard</li>
+        <li>Documentation & Deployment</li>
+    </ul>
+</section>
+
+<section>
+    <h2>📊 Key Business Insights</h2>
+    <div class="highlight">
+        <ul>
+            <li>Low usage frequency is the strongest indicator of churn</li>
+            <li>Monthly plans churn more than yearly subscriptions</li>
+            <li>Support tickets strongly correlate with churn risk</li>
+            <li>Auto-renew significantly improves customer retention</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>🤖 Model Details</h2>
+    <ul>
+        <li><strong>Model:</strong> Logistic Regression</li>
+        <li><strong>Target:</strong> Churn (0 = Retained, 1 = Churned)</li>
+        <li><strong>Focus:</strong> Recall optimization to reduce missed churn</li>
+        <li><strong>Output:</strong> Probability-based churn risk segmentation</li>
+    </ul>
+</section>
+
+<section>
+    <h2>🛠️ Tech Stack</h2>
+    <div class="tech">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Scikit-learn</span>
+        <span>SQL (MySQL)</span>
+        <span>Statistics</span>
+        <span>Power BI</span>
+        <span>GitHub</span>
+    </div>
+</section>
+
+<section>
+    <h2>📂 Project Repository</h2>
+    <p>
+        👉 View full code, SQL queries, dashboards, and documentation on GitHub: 
+        <a href="https://github.com/harshad912004/Subscription_Retention_Analysis">GitHub Repository Link</a>
+    </p>
+</section>
+
+<section>
+    <h2>📸 Dashboard Overview</h2>
+    <img src="subscription_retention_analysis_dashboard.png" alt="Subscription Retention Analysis Dashboard" />
+</section>
+
+<section>
+    <h2>🚀 Business Impact</h2>
+    <p>
+        This project enables subscription businesses to:
+    </p>
+    <ul>
+        <li>Identify high-risk customers early</li>
+        <li>Reduce churn-related revenue loss</li>
+        <li>Design targeted retention strategies</li>
+        <li>Make data-driven subscription decisions</li>
+    </ul>
+</section>
+
+<footer>
+    <p>
+	© 2025 
+        Built with ❤️ by <strong>Harshad Dhongade</strong> <br>
+        Aspiring Data Scientist | Master's in Computer Application
+	<p>
+        	Connect on LinkedIn: <a href="https://www.linkedin.com/in/harshad-dhongade">LinkedIn</a> | 
+        	Connect on GitHub: <a href="https://github.com/harshad912004">GitHub</a>
+    	</p>
+    </p>
+</footer>
+
+</body>
+</html>
