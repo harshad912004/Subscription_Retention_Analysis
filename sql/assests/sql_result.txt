@@ -1,0 +1,64 @@
+Overall Churn Rate / Average Churn % = 23.43
+
+
+Avg Churn % by Contract Type =
+contrcat_type  churn_rate_%
+Quarterly      17.87
+Monthly        33.10
+Yearly         7.34
+
+
+Avg Churn % by Auto-Renew Status =
+auto_renew     churn_rate_%
+0              38.07
+1              16.77
+
+
+Avg Churn % by Payment Method =
+payment_method churn_rate_%
+Net Banking	26.23
+UPI            22.81
+Debit Card	23.75
+Credit Card	22.22
+
+
+Usage Frequency: Churned vs Retained =
+churn     avg_uage
+0         8.23
+1         7.05
+
+
+Support Tickets vs Churn =
+churn     avg_ticket
+0         1.4
+1         1.91
+
+
+Tenure Buckets vs Churn =
+tenure_group   churn_rate_%
+12+ months     23.41
+7–12 months    22.74
+0–3 months     26.28
+4–6 months     21.74
+
+
+High-Risk Customers count = 11
+
+
+Monthly Churn Trend =
+cohort_month   churn_rate_%
+2025-01        29.03
+2025-02        31.87
+2025-03        25.00
+2025-04        21.90
+2025-05        25.23
+2025-06        21.43
+2025-07        19.28
+2025-08        16.82
+2025-09        32.58
+2025-10        16.83
+2025-11        25.56
+2025-12        17.58
+
+
+Retention Rate % = 76.57
