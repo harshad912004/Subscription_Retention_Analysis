@@ -85,8 +85,7 @@ subscription-retention-analysis/
 ├── models/  
 │   └── logistic_churn_model.pkl  
 │  
-├── screenshots/  
-│   └── dashboard_images.png  
+├── subscription_retention_analysis_dashboard.png  
 │  
 ├── README.md  
 └── requirements.txt  
@@ -157,6 +156,7 @@ The dashboard enables business teams to monitor churn and take proactive actions
 
 ## 12. Tech Stack Used
 - Python (Pandas, NumPy, Scikit-learn)
+- Machile Learning (Logistic Regression)
 - SQL (MySQL)
 - Statistics & Mathematics
 - Power BI
@@ -183,8 +183,6 @@ This project helps organizations to:
 **Harshad Dhongade**  
 Master’s Student – Computer Application  
 Aspiring Data Scientist / Data Analyst / ML Engineer
-
-
 ## 16. Future Improvements
 - Try tree-based models for comparison
 - Automate data pipeline
